@@ -177,3 +177,14 @@ input:invalid {
 input:valid {
     border: 2px solid rgb(20, 159, 191);
 }
+
+h5 {
+    text-align: center;
+    font-size: 8px;
+    margin-top: -10px;
+}
+
+.verify {
+    display: flex;
+    margin-bottom: 15px;
+}
