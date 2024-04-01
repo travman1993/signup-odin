@@ -20,14 +20,14 @@
     <div class="signup">
         <h1>Sign Up</h1>
         <form action="login.php" method="post">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="exp@gmail.com">
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username" placeholder="bluedog123">
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" placeholder="New Password">
-            <label for="password">Re-Enter:</label>
-            <input type="password" name="password" id="password" placeholder="Re-Enter">
+            <label for="email">*Email:</label>
+            <input type="email" name="email" id="email" placeholder="exp@gmail.com" required>
+            <label for="username">*Username:</label>
+            <input type="text" name="username" id="username" placeholder="bluedog123" required>
+            <label for="password">*Password:</label>
+            <input type="password" name="password" id="password" placeholder="New Password" required>
+            <label for="password">*Re-Enter:</label>
+            <input type="password" name="reenter-password" minlength="1" id="password" placeholder="Re-Enter" required>
         </form>
         <div id="submit-btn">
             <button type="submit">Submit</button>

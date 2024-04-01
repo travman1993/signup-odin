@@ -169,3 +169,11 @@ p{
     margin-top: 10px;
     margin-bottom: 10px
 }
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid rgb(20, 159, 191);
+}
