@@ -2,6 +2,8 @@ body {
     background-image:
     url("https://pics.freeartbackgrounds.com/midle/Sea_Sunrise_Sky_and_Sea_Background-464.jpg");
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 
@@ -76,8 +78,6 @@ li{
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.678);
     margin-top: 30px;
-    margin-right: 220px;
-    margin-left: 220px;
 }
 
 form {
@@ -128,9 +128,6 @@ h2{
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.678);
     margin-top: 30px;
-    margin-right: 220px;
-    margin-left: 220px;
-
 }
 
 #submit-btn {
